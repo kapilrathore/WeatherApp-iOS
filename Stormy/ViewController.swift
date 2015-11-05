@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var refreshButton: UIButton?
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
     
-    private let forecasteAPIKey = "41db8bde58b6d9c75df0febc3fd218a0"
+    private let forecasteAPIKey = "(Enter your API Key Here)"
     let coordinate: (lat: Double, long: Double) = (37.8267,-122.423)
     
 
