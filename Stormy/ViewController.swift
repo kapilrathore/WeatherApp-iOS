@@ -18,8 +18,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var refreshButton: UIButton?
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
     
-    private let forecasteAPIKey = "(Enter your API Key Here)"
+    private let forecasteAPIKey = ""
     let coordinate: (lat: Double, long: Double) = (37.8267,-122.423)
+    
+    // Enter your API Key in the forecasteAPIKey
+    // You can put your custom location coordinates instead of mine.
     
 
     override func viewDidLoad() {
